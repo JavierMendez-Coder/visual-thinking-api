@@ -6,9 +6,9 @@ describe("Unit Tests for the StudentController class", () => {
     expect(students).not.toBeUndefined();
   });
 
-  test("Test getCertificatedStudents() method", () => {
-    const certificatedStudents = StudentController.getCertificatedStudents();
-    expect(certificatedStudents).not.toBeUndefined();
+  test("Test getCertifiedStudents() method", () => {
+    const certifiedStudents = StudentController.getCertifiedStudents();
+    expect(certifiedStudents).not.toBeUndefined();
   });
 
   test("Test getStudentsOver500Credits() method", () => {
