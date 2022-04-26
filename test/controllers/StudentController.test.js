@@ -11,14 +11,6 @@ describe("Unit Tests for the StudentController class", () => {
     expect(certificatedStudents).not.toBeUndefined();
   });
 
-
-  test("Test getCertificatedStudents() method to return students with only a certification", () => {
-    const certificatedStudents = StudentController.getCertificatedStudents();
-    const areAllCertificated = certificatedStudents.every((student) => student.haveCertification);
-
-    expect(areAllCertificated).toBeTruthy();
-  });
-
   test("Test getStudentsOver500Credits() method", () => {
     const studentsOver500Credits = StudentController.getStudentsOver500Credits();
     expect(studentsOver500Credits).not.toBeUndefined();
