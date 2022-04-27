@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JavierMendez-Coder/visual-thinking-api">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/othneildrew/Best-README-Template/master/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Visual Thinking API</h3>
@@ -34,6 +34,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#why-this-dependencies">Why this dependencies?</a></li>
       </ul>
     </li>
     <li>
@@ -44,9 +45,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#requirements-roadmap">Requirements Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -72,8 +71,6 @@ graph TD;
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
 - [JavaScript](https://www.javascript.com)
@@ -86,13 +83,11 @@ graph TD;
 
 | Dependencies | Used to                          |
 | :----------: | -------------------------------- |
-| Jest         | Drive unit tests                 |
-| Express      | Create the backend app API       |
-| ESLint       | Take care of the code legibility |
+|     Jest     | Drive unit tests                 |
+|   Express    | Create the backend app API       |
+|    ESLint    | Take care of the code legibility |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 
@@ -129,15 +124,15 @@ This API allows you to access to the students database in JSON format from Visua
 ### HTTP Requests examples
 
 - Obtain the students list
-  ```http
+  ```
   GET localhost:3000/v1/students
   ```
 - Obtain the emails list of the certified students
-  ```http
+  ```
   GET localhost:3000/v1/students/certified
   ```
 - Obtain the students list whose credits exceeds 500
-  ```http
+  ```
   GET localhost:3000/v1/students/credits
   ```
 
